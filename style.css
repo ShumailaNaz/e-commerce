@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    background-color: #FFFFFF;
+    color: #ebd7be;
+}
+.bg{
+    background-color: #CAAFA8;
+ 
+}
+.logo{
+    font-family: 'Lato';
+    font-size: 3em;
+}
+.nav-item{
+    font-size: 1em;
+}
+.img_height{
+    height: 95vh;
+}
+.info{
+    background-color: #FDF9F5;
+}
+.pro{
+    background-color: #CAAFA8;
+}
+.card-img-top{
+    height: 50vh;
+  
+}
+.nav-icon{
+    font-size:1.1em ;
+}
+.arrivals-card:hover{
+background-color: #FDF9F5;
+font-weight: bold;
+cursor: pointer;
+}
+.contactUs{
+    background-color: #CAAFA8;
+}
+.btn-send{
+    background-color: #FDF9F5;
+}
+
+.about{
+    font-weight: bold;
+    color: grey;
+}
+.btn-explore{
+    background-color: #CAAFA8;
+}
+.btn-explore:hover{
+   font-weight: bold;
+   background-color: #CAAFA8;
+   transition: 0s ease;
+}
+.disp{
+    display: flex;
+   justify-content: space-evenly;
+    list-style-type: none;
+   
+}
+
+.disp>li>a{
+    border-bottom: 1px solid #FFFFFF;
+    text-decoration: none !important;
+    color: #FFFFFF !important;
+    
+}
+.disp>li>a:hover{
+    
+    border-bottom: 2px solid #FFFFFF;
+    font-weight: bold;
+    transition: 0s ease;
+    
+}
+footer{
+    background-color: gray;
+}
+.login{
+    background-color: #CAAFA8;
+}
+.user-login{
+    background-color: #CAAFA8;
+}

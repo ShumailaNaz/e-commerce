@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+
+      <!-- Bootstrap Js cdn -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Poppins:wght@200&family=Roboto&display=swap"
+    rel="stylesheet">
+
+  <!-- BOotstrap Icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce</title>
+  <link rel="icon" href="images/logo/logo2.png">
+</head>
+
+<body>
+  <!-- header -->
+  <header>
+    <div class="container head pt-2 text-center">
+      <p>$6 EXPRESS COURIER. FREE SHIPPING FOR ORDERS $200+. GIFTED HEBE TOTE BAG WITH PURCHASES $250+.</p>
+    </div>
+
+  </header>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg sticky-top">
+    <div class="container-fluid ps-5">
+      <a class="navbar-brand text-light logo" href="#">Sophie</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-flex justify-content-around " id="navbarNavDropdown">
+        <ul class="navbar-nav ps-5">
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="#shop">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#brands">Brands</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#contactus">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#aboutus">About Us</a>
+          </li>
+          <li class="nav-item">
+           
+           
+              <!-- offcanvas -->
+             
+              <a class="nav-link text-light nav-icon" type="" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                <i class="bi bi-person"></i>
+          </a>
+
+              <div class="offcanvas offcanvas-start user-login" tabindex="-1" id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <div>
+                    Some text as placeholder. In real life you can have the elements you have chosen. Like, text,
+                    images, lists, etc.
+                  </div>
+                  <div class="dropdown mt-3">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                      Dropdown button
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+   
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light nav-icon" href="cart.html"><i class="bi bi-bag"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Carousel -->
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/slider/slider1.jpg" class="d-block w-100 img_height" alt="Loading">
+      </div>
+      <div class="carousel-item">
+        <img src="images/slider/slider2.jpg" class="d-block w-100 img_height" alt="Loading">
+      </div>
+      <div class="carousel-item">
+        <img src="images/slider/slider6.jpg" class="d-block w-100 img_height" alt="Loading">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- info -->
+
+  <div class="text-center py-5 info d-flex" id="aboutus">
+    <div class="container">
+      <p class="lead fs-2 about ">About Us</p>
+      <p class="lead ps-5">
+        Curators of ethical fashion and UK designed.
+        Sophie is a destination concept store and online haven for style-seekers.
+        A fashion selection lovingly handpicked for you, sealed with personal touch.
+        We love all of our beautiful brands here at Sophie but
+        there is a special place in our heart for the UK brands.
+        We have made it easy for you to find a little about each of these amazing brands.
+        Head over to our Homegrown page where we give you a little insight into what makes each of these brands so
+        special.
+      </p>
+    </div>
+    <div class="container-fluid">
+      <img src="images/products/pro2.jpg" alt="about" class="w-25">
+    </div>
+  </div>
+
+
+  <!-- Products -->
+  <div class="pro" id="brands">
+    <div class="container d-flex justify-content-between py-5">
+      <!-- product 1 -->
+      <div class="card" style="width: 18rem;">
+        <img src="images/products/prof2.jpg" class="card-img-top" alt="fragrance">
+        <div class="card-body">
+          <h5 class="card-title">Ariana Grande cloud</h5>
+          <p class="card-text">Let’s start with the youngest perfume on this list, a fruity floral fragrance introduced
+            in 2018. Share the happiness in air</p>
+          <a href="#" class="btn btn-explore">Explore More</a>
+        </div>
+      </div>
+
+
+      <!-- product 2 -->
+
+      <div class="card" style="width: 18rem;">
+        <img src="images/products/pros2.jpg" class="card-img-top" alt="accessories">
+        <div class="card-body">
+          <h5 class="card-title">Russell & Bromley</h5>
+          <p class="card-text">Discover Russell & Bromley's Latest Collection Online & In Store. Explore a range of
+            highest quality luxurious shoes and handbags.</p>
+          <a href="#" class="btn btn-explore">Explore More</a>
+        </div>
+      </div>
+
+
+      <!-- product 3 -->
+      <div class="card" style="width: 18rem;">
+        <img src="images/products/proc4.jpg" class="card-img-top" alt="care products">
+        <div class="card-body">
+          <h5 class="card-title">Biotell</h5>
+          <p class="card-text"> Biotell An exciting new name to have on your radar is Biotell, a home-grown cosmetics
+            brand here in the UK.</p>
+          <a href="#" class="btn btn-explore">Explore More</a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Arrivals -->
+  <div class="arrivals">
+    <div class="container d-flex justify-content-between py-5">
+      <!-- New Arrivals -->
+      <div class="card" style="width: 18rem;">
+        <img src="images/products/new arrivals.jpg" class="card-img-top" alt="new arrivals">
+        <div class="card-body">
+          <p class="card-text arrivals-card">New Arrivals are on the way !</p>
+        </div>
+      </div>
+      <!-- Comming Soon -->
+      <div class="card" style="width: 18rem;">
+        <img src="images/products/pro1.jpg" class="card-img-top" alt="coming soon">
+        <div class="card-body">
+          <p class="card-text arrivals-card">Stay Connected to be Amazed!</p>
+        </div>
+      </div>
+
+
+      <!-- Sale -->
+      <div class="card" style="width: 18rem;">
+        <img src="images/products/sale.jpg" class="card-img-top" alt="sale">
+        <div class="card-body">
+          <p class="card-text arrivals-card">Hurray! Are you Excited?</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  <!-- Contact US -->
+  <div class="contactUs py-4" id="contactus">
+    <div class="container">
+      <div>
+        <p class="text-center text-white fs-2 ">Contact US</p>
+        <p class="text-center text-white fs-4 lead">We'd love to Help you</p>
+      </div>
+
+      <div class="container">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Name</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1" required>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" required>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+
+
+        <div class="mb-3">
+          <button class="btn btn-send" type="submit">Send</button>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- footer -->
+  <footer>
+    <div class="container text-white">
+      <div class="site text-align-center">
+        <ul class="disp pt-3">
+          <li><a href="#shop">Shop</a></li>
+          <li><a href="#brands">Brands</a></li>
+          <li><a href="#aboutus">About Us</a></li>
+          <li><a href="#contactus">Contact Us</a></li>
+
+        </ul>
+      </div>
+      <div class="text-center pb-2">
+        <p>devShum &copy;2022</p>
+      </div>
+    </div>
+
+
+
+  </footer>
+
+
+
+
+
+      <!-- Bootstrap Js cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
